@@ -1,7 +1,7 @@
 name: Greetings
 
-on: [pull_request, issues]
-defaults: workflow_dispatch:
+on: [pull_request, issues, workflow_dispatch]
+
 
 jobs:
   greeting:
